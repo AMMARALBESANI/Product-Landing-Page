@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    
+}
+
+
+body{
+    background-color: rgb(210, 210, 210);
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+section{
+    margin: 20px;
+    
+}
+.logo{
+    width: 50%;
+    
+}
+
+#header-img{
+    width: 50%;
+}
+#nav-bar ul {
+  display: flex;
+  
+  list-style: none;
+  
+}
+.nav-link{
+    text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 1.2rem;
+  
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin: 5px;
+}
+#hero input[type='email'] {
+    
+    width: 100%;
+    padding: 5px;
+}
+#hero input[type='submit'] {
+   
+    width: 50%;
+    
+    margin: 10px 50px;
+}
+   
+
+ 
+
+.container p ,h2{
+    line-height: 50px;
+}
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+}
+
+
+
+#feature h2:first-child{
+    color: beige;
+
+}
+#how-it-works{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#video{
+    width: 70%;
+    height: 500px;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.level{
+    background-color: darkgoldenrod;
+    width: 100%;
+    padding:10px 0;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    text-align: center;
+   
+    width: calc(100%/3);
+    margin: 10px;
+    align-items: center;
+    line-height: 36px;
+    padding-bottom: 10px;
+    
+}
+
+ol li{
+    list-style: none;
+}
+
+.btn{
+    margin-left: 30px;
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+footer ul li {
+   
+    
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
